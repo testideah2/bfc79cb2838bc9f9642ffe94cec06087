@@ -5,7 +5,7 @@
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
         id          = "QRVM.app"
         versionCode = "10"
-        version     = "1.0.0">
+        version     = "1.1.0">
 
     <name>ТЕСТ. Автоматы QRVM</name>
 
@@ -30,7 +30,7 @@
     <preference name='WindowsToastCapable' value='true' />
 
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenSpinnerColor" value="#007BFF" />
+    <preference name="SplashScreenSpinnerColor" value="#008B44" />
     
     <platform name="android">
       <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
@@ -40,17 +40,17 @@
 
 
     <platform name="android">
-        <icon src="res/android/icon/26592db87e13f095e742eacd64f4b37d.png" density="ldpi" />
-        <icon src="res/android/icon/2eb1e4ff98db93bfab046ef05f8baa44.png" density="mdpi" />
-        <icon src="res/android/icon/79ec790e8fe6add887fbde579c641e3c.png" density="hdpi" />
-        <icon src="res/android/icon/c71d87ca0e9f7a9b4861f0c9f4d40d2a.png" density="xhdpi" />
-        <icon src="res/android/icon/0a6f654111285c1c486b281bd228be73.png" density="xxhdpi" />
-        <icon src="res/android/icon/ce0f8ed6d254f03761ee7d5fc7131123.png" density="xxxhdpi" />
+        <icon src="res/android/icon/d4d32338ea5e1f67c7845bcd0b8a4377.png" density="ldpi" />
+        <icon src="res/android/icon/16f0f1ba170422c3a17a236f721b509f.png" density="mdpi" />
+        <icon src="res/android/icon/03b6664de26e12dadef9e758880bd366.png" density="hdpi" />
+        <icon src="res/android/icon/af529adf20462f7dedbe1dd8fdd3d826.png" density="xhdpi" />
+        <icon src="res/android/icon/83995f7393f5cca208d08f136e9863d2.png" density="xxhdpi" />
+        <icon src="res/android/icon/71d36f036f14c81599a9d2a7ec06aa94.png" density="xxxhdpi" />
 
-        <splash src="res/android/screen/1112c90e761562f7ee310960f8af4a6c.png" density="port-hdpi"/>
-        <splash src="res/android/screen/662196d8a9a24c4cc8fa28f961b26e9f.png" density="port-ldpi"/>
-        <splash src="res/android/screen/40f4d5b43675b29519e96f85bfa8ae74.png" density="port-mdpi"/>
-        <splash src="res/android/screen/f9897c5f8f627b3e1c1350b87733d189.png" density="port-xhdpi"/>
+        <splash src="res/android/screen/44763ace6ac911366cb857a79fe8f494.png" density="port-hdpi"/>
+        <splash src="res/android/screen/9224dfe2437d6d577408c6f2fb062c4c.png" density="port-ldpi"/>
+        <splash src="res/android/screen/eccda7164430a13ee0d4729cdee3f658.png" density="port-mdpi"/>
+        <splash src="res/android/screen/0e4bc375d7e2a6410f014105d7821e89.png" density="port-xhdpi"/>
     </platform>
 
     <platform name="ios">
